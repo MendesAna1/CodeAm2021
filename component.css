@@ -1,0 +1,193 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+
+
+}
+
+
+
+header {
+   background-color: #fff;
+   padding: 0.1px; 
+
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #808080;
+}
+
+section {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0px auto;
+  display: table;
+  position: relative;
+}
+
+main{
+  margin-top: 50px;
+}
+
+.imagenes {
+    padding-left: 10px;
+
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+
+
+h1 {  /*subtitulo*/
+  margin: 0px auto;
+  font-size: 15px;
+  padding: 40px;
+  color: #ffffff;
+  text-align: center;
+  
+}
+
+h1 span { /*titulo principal*/
+  font-weight: 100px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/*navegador
+
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  text-align:center;
+  background: #0eacab;
+  color: #fff;
+  text-shadow: 0px 0px #000000;
+  margin-top: 0px;
+  line-height:25px;
+  word-spacing: 80px;
+  font-family: sans-serif;
+  font-size: 17px;
+}*/
+
+.content {  /*sections*/
+  margin-bottom: 40px;
+  width: 900px;
+
+}
+
+.content h2 { /*titulo de sections*/
+  font-size: 18px;
+  font-weight: 400;
+  color: #44515b;
+  border-bottom: 1px none; 
+  display: block;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+.content p { /*parrafo de sections*/
+  font-size: 13px;
+  line-height: 22px;
+  color: #44515b;
+  text-align: center;
+}
+
+
+
+/*menu nuevo*/
+
+*,
+*:before,
+*:after {
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+body, html {
+  height: 100%;
+  background-color:#1c2024 ;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  letter-spacing: 1px;
+  color: black;
+
+}
+
+.tutorial {
+
+  margin: 0% auto 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+
+}
+
+.tutorial ul {
+  font-size: 0;
+  list-style-type: none;
+  background-color:#3fa260 ; /*color nav*/
+  letter-spacing: 2px;
+}
+.tutorial ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400px;
+  color: #202020;
+  display: inline-block;
+  padding: 10px;  /*tamaño nav*/
+  position: relative;
+}
+
+                   
+
+footer{ 
+    background: #44515b;
+    padding-bottom: 0.1px;
+    text-align: center;
+}
+
+.contenedor-footer-content{ /*contenedor footer*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-us{ /* copyright */
+    font-size: 13px;
+    width: 100%;
+    color: #fff;
+    text-align: -webkit-center; 
+    padding-top:30px;
+    padding-bottom:30px; 
+}
+
+
+/*linea del pie de pagina*/
+.line{
+    width: 85%;
+    max-width: 900px;
+    margin: auto;
+    height: 1px;
+    background: #0eacab;
+    margin-bottom: 10px;
+}
+
