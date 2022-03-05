@@ -4,10 +4,7 @@
   margin: 0px;
   padding: 0px;
   outline: none;
-
-
 }
-
 
 
 header {
@@ -42,7 +39,13 @@ main{
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
+#datos{
+    text-align: left;
+}
 
+#datos1{
+    text-align: right;
+}
 
 h1 {  /*subtitulo*/
   margin: 0px auto;
@@ -60,22 +63,6 @@ h1 span { /*titulo principal*/
 }
 
 
-/*navegador
-
-nav{
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  text-align:center;
-  background: #0eacab;
-  color: #fff;
-  text-shadow: 0px 0px #000000;
-  margin-top: 0px;
-  line-height:25px;
-  word-spacing: 80px;
-  font-family: sans-serif;
-  font-size: 17px;
-}*/
 
 .content {  /*sections*/
   margin-bottom: 40px;
@@ -103,7 +90,7 @@ nav{
 
 
 
-/*menu nuevo*/
+/*menu*/
 
 *,
 *:before,
